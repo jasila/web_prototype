@@ -27,7 +27,7 @@ header {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20vw;
+    margin-top: 10vw;
 }
 
 
@@ -41,7 +41,7 @@ header {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20vw;
+    margin-top: 12vw;
 }
 
 #continue article img {
@@ -49,8 +49,4 @@ header {
 }
 
 
-/*
-header img {
-    margin-left: 40%;
-}
-*/
+/****startside****/

@@ -1,6 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="295" height="48" viewBox="0 0 295 48">
-  <g id="inputs" transform="translate(-40 -209)">
-    <rect id="Rectangle_123" data-name="Rectangle 123" width="295" height="48" rx="24" transform="translate(40 209)" fill="#fff"/>
-    <text id="johndoe_mail.com" data-name="johndoe@mail.com" transform="translate(65 238)" fill="#ea5045" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="0">johndoe@mail.com</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="295" height="48" viewBox="0 0 295 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Login" transform="translate(-40 -579)">
+    <g id="Rectangle_133" data-name="Rectangle 133" transform="translate(40 579)" fill="none" stroke="#ea5045" stroke-width="2">
+      <rect width="295" height="48" rx="24" stroke="none"/>
+      <rect x="1" y="1" width="293" height="46" rx="23" fill="none"/>
+    </g>
+    <text id="LOGIN_WITH_FACEBOOK" data-name="LOGIN WITH FACEBOOK" transform="translate(188 607)" fill="#ea5045" font-size="10" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-59.719" y="0">LOGIN WITH FACEBOOK</tspan></text>
+    <g id="Symbol_1" data-name="Symbol 1" transform="translate(61 595)" clip-path="url(#clip-path)">
+      <rect id="Rectangle_1458" data-name="Rectangle 1458" width="16" height="16" fill="none"/>
+      <path id="Path_1" data-name="Path 1" d="M85.422,16V8.711h2.489l.356-2.844H85.422V4.089c0-.8.267-1.422,1.422-1.422h1.511V.089C88,.089,87.111,0,86.133,0a3.431,3.431,0,0,0-3.644,3.733V5.867H80V8.711h2.489V16Z" transform="translate(-76)" fill="#ea5045" fill-rule="evenodd"/>
+    </g>
   </g>
 </svg>
