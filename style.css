@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+/*FONTS*/
+
+@font-face {
+    font-family: canada-type-gibson;
+
+}
+
+
+
 
 /*LOGIN SITE*/
 
@@ -114,8 +123,10 @@ header {
 #box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin-top: 10px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
 
 
 }
@@ -123,8 +134,8 @@ header {
 .box1row {
     background-color: #FFFFFF;
     padding: 15px;
-    width: 25vw;
-    height: 25vw;
+    width: 30vw;
+    height: 29vw;
     margin-bottom: 2vw;
 
 
@@ -142,8 +153,49 @@ header {
 .box2row {
     background-color: #FFFFFF;
     padding: 15px;
-    width: 58vw;
-    height: 25vw;
+    width: 63vw;
+    height: 29vw;
     margin-bottom: 2vw;
 
+}
+
+.box3row {
+    background-color: #FFFFFF;
+    padding: 15px;
+    width: 63.3vw;
+    height: 60vw;
+    margin-bottom: 2vw;
+
+}
+
+h1 {
+    color: #EA847C;
+    font-family: gibson, sans-serif;
+    font-weight: 600;
+    justify-content: center;
+}
+
+
+.box_left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box_right {}
+
+#box_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
 }
