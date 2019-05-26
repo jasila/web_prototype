@@ -80,13 +80,15 @@ header {
 
 #menuknap {
     display: inline-block;
-
     position: absolute;
     z-index: 4000;
+    right: 3vw;
 }
 
 
-#menuknap img {}
+
+
+
 
 
 
@@ -108,12 +110,13 @@ header {
 
 
 
+
 }
 
 #menu a {
     color: #EA847C;
     font-family: gibson, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 600;
     text-decoration: none;
     margin-bottom: 5px;
@@ -121,36 +124,38 @@ header {
 
 
 #menu img {
-    margin-top: 100px;
+    margin-top: 95px;
     margin-bottom: 60px;
+    right: 5;
 }
 
-
-
-
-
-#logud {
-    color: white;
-}
 
 
 
 .footer {
+
     bottom: 0;
     left: 0;
     position: absolute;
     width: 100%;
     background-color: #EA847C;
-    height: 7vh;
+    height: 6vh;
     color: white;
     font-family: gibson, sans-serif;
     font-weight: 500;
-    font-size: 1.5rem;
-    justify-content: center;
+    font-size: 1.2rem;
+
 }
 
 
-@media only screen and (min-width: 1200px) {
+.footer p {
+    margin-top: 2vw;
+}
+
+
+
+
+@media only screen and (min-width: 1600px) {
 
     #menuknap {
         display: none;
@@ -170,6 +175,11 @@ header {
 /********startside**********/
 
 
+.profil {
+    position: absolute;
+    right: 10vw;
+}
+
 
 .header2 {
     display: flex;
@@ -181,6 +191,15 @@ header {
     padding: 4vw;
 
 
+
+}
+
+figcaption {
+    color: #EA847C;
+    font-family: gibson, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0.9rem;
 
 }
 
@@ -224,11 +243,9 @@ header {
 
 .box3row {
     background-color: #FFFFFF;
-    padding: 15px;
+    padding: 30px;
     width: 63.3vw;
     height: 60vw;
-    margin-bottom: 2vw;
-
 }
 
 h1 {
@@ -238,6 +255,15 @@ h1 {
     font-size: 2rem;
     margin-top: 9vw;
     margin-left: 10vw
+}
+
+h2 {
+    color: #EA847C;
+    font-family: gibson, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 18vw;
+    margin-left: 15vw
 }
 
 
