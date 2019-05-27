@@ -82,7 +82,7 @@ input {
     /*    display: none;*/
     /*    transform: scale(0);*/
     transform: translateX(+100%);
-    opacity: 0;
+    display: none;
 }
 
 #menuknap {
@@ -330,7 +330,7 @@ h3 {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 5vw;
-    height: 15vw;
+
 
 
     margin-bottom: 10vw;
@@ -364,4 +364,32 @@ h3 {
     position: relative;
     left: 84vw;
     bottom: 2vw;
+}
+
+#dropdown {
+    background-color: white;
+    list-style: none;
+    background-size: 100%;
+    margin: 0;
+    font-family: canada-type-gibson;
+    font-weight: 600;
+
+
+}
+
+#dropdown li {
+    border: 1px solid #DEDCDB;
+    padding: 2rem;
+    list-style-position: outside;
+
+
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+
+
+
 }
