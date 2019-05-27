@@ -5,6 +5,8 @@ function sidenVises() {
 
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
+    document.querySelector("#pil").addEventListener("click", dropDown);
+
 
 }
 
@@ -26,4 +28,16 @@ function toggleMenu() {
     else {
         document.getElementById("menuknap_img").src = "startside_ui/No.svg";
     }
+}
+
+
+function dropDown() {
+    console.log("dropDown");
+
+    document.querySelector("#dropdown").classList.toggle("hidden");
+
+    let erSkjult = document.querySelector("#dropdown").classList.contains("hidden");
+
+
+
 }
