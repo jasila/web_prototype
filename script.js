@@ -38,6 +38,17 @@ function dropDown() {
 
     let erSkjult = document.querySelector("#dropdown").classList.contains("hidden");
 
+    if (erSkjult == true) {
+        document.getElementById("pil").src = "afleveringsite/Down%20arrow%20small.svg";
+        //document.querySelector("#menuknap").textContent = "☰";
+    }
 
+    //hvis i navmuligheder er skjult skal man se et kryds
+    else {
+        document.getElementById("pil").src = "afleveringsite/pilup.svg";
+
+
+
+    }
 
 }
